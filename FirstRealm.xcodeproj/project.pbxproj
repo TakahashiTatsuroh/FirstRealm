@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		DDFEB3EC22EFD03300DE025C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFEB3EA22EFD03300DE025C /* Main.storyboard */; };
 		DDFEB3EE22EFD03300DE025C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFEB3ED22EFD03300DE025C /* Assets.xcassets */; };
 		DDFEB3F122EFD03300DE025C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFEB3EF22EFD03300DE025C /* LaunchScreen.storyboard */; };
+		DDFEB3F922EFD7F600DE025C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFEB3F822EFD7F600DE025C /* Item.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		DDFEB3ED22EFD03300DE025C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDFEB3F022EFD03300DE025C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDFEB3F222EFD03300DE025C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFEB3F822EFD7F600DE025C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EBC7A49A6BB19D620764E41B /* Pods-FirstRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstRealm.release.xcconfig"; path = "Target Support Files/Pods-FirstRealm/Pods-FirstRealm.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,7 +48,6 @@
 				48CC1134173BCD97DF69EEE8 /* Pods-FirstRealm.debug.xcconfig */,
 				EBC7A49A6BB19D620764E41B /* Pods-FirstRealm.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,6 +86,7 @@
 				DDFEB3ED22EFD03300DE025C /* Assets.xcassets */,
 				DDFEB3EF22EFD03300DE025C /* LaunchScreen.storyboard */,
 				DDFEB3F222EFD03300DE025C /* Info.plist */,
+				DDFEB3F822EFD7F600DE025C /* Item.swift */,
 			);
 			path = FirstRealm;
 			sourceTree = "<group>";
@@ -205,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDFEB3E922EFD03300DE025C /* ViewController.swift in Sources */,
+				DDFEB3F922EFD7F600DE025C /* Item.swift in Sources */,
 				DDFEB3E722EFD03300DE025C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
